@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #016664;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #016664;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-logos img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.right-profile i {
+    color: #F0DEBA;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    background: #F0DEBA;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    background: #016664;
+    color: #F0DEBA;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    transition: background 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.option:hover {
+    background: #000000;
+}
+
+.todo-container {
+    text-align: center;
+    background: #F0DEBA;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#todo-input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #016664;
+    color: #F0DEBA;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #005050;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+li {
+    background: #016664;
+    color: #F0DEBA;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: none;
+    border: none;
+    color: #F0DEBA;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0 10px;
+}
