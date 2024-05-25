@@ -72,7 +72,7 @@ h1 {
     background: #000000;
 }
 
-.todo-container {
+.todo-container, .events-container, .research-container {
     text-align: center;
     background: #F0DEBA;
     padding: 20px;
@@ -82,11 +82,12 @@ h1 {
     max-width: 400px;
 }
 
-#todo-input {
+#todo-input, #research-title, #research-authors, #research-file {
     padding: 10px;
     width: calc(100% - 22px);
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 button {
