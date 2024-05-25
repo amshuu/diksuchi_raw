@@ -38,19 +38,21 @@
             </div>
         </div>
     </div>
-    <div class="todo-container">
-        <h2>To-Do List</h2>
-        <input type="text" id="todo-input" placeholder="Add a new task">
-        <button onclick="addTask()">Add Task</button>
-        <ul id="todo-list"></ul>
-    </div>
-  
-    <div class="research-container">
-        <h2>Research Papers</h2>
-        <form id="research-form">
-            <input type="text" id="research-title" placeholder="Topic" required>
-            <button type="search">Search</button>
-        </form>
+    <div class="side-by-side-containers">
+        <div class="todo-container">
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add a new task">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="todo-list"></ul>
+        </div>
+      
+        <div class="research-container">
+            <h2>Research Papers</h2>
+            <form id="research-form">
+                <input type="text" id="research-title" placeholder="Topic" required>
+                <button type="search">Search</button>
+            </form>
+        </div>
     </div>
 
     <script src="script.js"></script>
