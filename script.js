@@ -1,25 +1,17 @@
 function chatWithStudents() {
-    alert("Redirecting to chat with university students...");
-    // Here you can redirect to the actual chat page
-    // window.location.href = "chat.html";
+    window.location.href = "chat.html"; // Redirect to chat.html
 }
 
 function clearDoubts() {
-    alert("Redirecting to AI doubt clearing...");
-    // Here you can redirect to the actual AI doubt clearing page
-    // window.location.href = "ai_doubt_clearing.html";
+    window.location.href = "clear_doubts.html"; // Placeholder for clear doubts page
 }
 
 function accessStudyMaterials() {
-    alert("Redirecting to study materials...");
-    // Here you can redirect to the actual study materials page
-    // window.location.href = "study_materials.html";
+    window.location.href = "study_materials.html"; // Placeholder for study materials page
 }
 
 function viewAnnouncements() {
-    alert("Redirecting to university announcements...");
-    // Here you can redirect to the actual announcements page
-    // window.location.href = "announcements.html";
+    window.location.href = "announcements.html"; // Placeholder for announcements page
 }
 
 function addTask() {
