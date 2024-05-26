@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy/Sell Books</title>
+    <link rel="stylesheet" href="buy_sell_books.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://i.postimg.cc/SsLK1ft6/gitam-logo-bgless.png" alt="Gitam Logo">
+            <img src="https://i.postimg.cc/c4vGzJV6/diksuchi-logo-png.png" alt="Diksuchi Logo">
+        </div>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h1>Available Books</h1>
+            <div id="available-books" class="book-list"></div>
+        </div>
+        <div class="section">
+            <h2>Sell Your Books</h2>
+            <form id="sell-book-form">
+                <input type="text" id="book-name" placeholder="Book Name" required>
+                <input type="text" id="seller-name" placeholder="Your Name" required>
+                <button type="submit">Sell Book</button>
+            </form>
+        </div>
+        <div class="section">
+            <h2>Ask for Book</h2>
+            <form id="ask-book-form">
+                <input type="text" id="requested-book" placeholder="Book Name" required>
+                <button type="submit">Ask for Book</button>
+            </form>
+        </div>
+    </div>
+    <script src="buy_sell_books.js"></script>
+</body>
+</html>
