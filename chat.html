@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with University Students</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="left-logos">
+            <img src="https://i.postimg.cc/SsLK1ft6/gitam-logo-bgless.png" alt="Gitam Logo">
+            <img src="https://i.postimg.cc/c4vGzJV6/diksuchi-logo-png.png" alt="Diksuchi Logo">
+        </div>
+        <div class="right-profile">
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Chat with University Students</h1>
+        <div class="question-section">
+            <h2>Post a Question</h2>
+            <input type="text" id="question-input" placeholder="Ask your question here...">
+            <button onclick="postQuestion()">Post Question</button>
+        </div>
+        <div class="answers-section">
+            <h2>Help Your Buddies</h2>
+            <div id="questions-container">
+                <!-- Example Questions -->
+                <div class="question">
+                    <h3>What is the best way to prepare for B.Tech exams?</h3>
+                    <div class="answers">
+                        <h4>Post an Answer</h4>
+                        <input type="text" placeholder="Type your answer here...">
+                        <button>Submit Answer</button>
+                    </div>
+                </div>
+                <div class="question">
+                    <h3>Can anyone explain the concept of machine learning?</h3>
+                    <div class="answers">
+                        <h4>Post an Answer</h4>
+                        <input type="text" placeholder="Type your answer here...">
+                        <button>Submit Answer</button>
+                    </div>
+                </div>
+                <!-- Add more questions as needed -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
