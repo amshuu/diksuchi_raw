@@ -3,7 +3,7 @@ function chatWithStudents() {
 }
 
 function clearDoubts() {
-    window.location.href = "clear_doubts.html"; // Placeholder for clear doubts page
+    window.location.href = "https://vashista.netlify.app/"; // Placeholder for clear doubts page
 }
 
 function accessStudyMaterials() {
